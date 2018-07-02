@@ -7,7 +7,9 @@ Step 2 - Create FormManager service for creating FormInstance and setting value 
 
 Step 3 - Create form instances using FormManager service in components.
 
-  Form Creating - this.formInstance = this.formManager.setupFormControls('formName');
-  Set Value - this.formManager.setTemplateValues(this.formInstance,Data);
+  Form Creation - this.formInstance = this.formManager.setupFormControls('formName');
+  
+  
+  Set FormValues - this.formManager.setTemplateValues(this.formInstance,Data);
   
   
